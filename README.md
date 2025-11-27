@@ -6,35 +6,43 @@
 
 ```
 Linux-command/
-├── stages/           # 📚 学习阶段文档
-│   ├── 阶段1-基础入门.md
-│   ├── 阶段2-文本处理.md
-│   ├── 阶段3-系统管理.md
-│   └── 阶段4-网络与高级应用.md
-├── collections/      # 📋 命令合集文档
-│   ├── Linux最常用命令TOP25.md   # ⭐ 核心命令（推荐新手）
-│   ├── Linux最常用命令50个.md    # 🔥 常用命令（进阶学习）
-│   ├── Linux常用命令100个.md     # 📚 完整合集（参考手册）
-│   └── Linux命令学习大纲.md      # 🎯 学习规划
-├── references/       # 🔍 参考资料文档
-│   ├── echo命令快速参考.md
-│   └── Linux特殊符号快速参考.md
-└── project/          # 📖 项目文档
-    └── README.md     # 项目详细说明
+├── guides/           # 📚 学习指南
+│   ├── README.md     # 学习指南导航
+│   └── stages/       # 分阶段学习教程
+│       ├── 阶段1-基础入门.md
+│       ├── 阶段2-文本处理.md
+│       ├── 阶段3-系统管理.md
+│       └── 阶段4-网络与高级应用.md
+├── commands/         # 🛠️ 命令合集
+│   ├── README.md     # 命令合集导航
+│   ├── essentials/   # ⭐ 精华命令合集
+│   │   ├── Linux最常用命令TOP25.md
+│   │   └── Linux最常用命令50个.md
+│   ├── collections/  # 📋 完整命令合集
+│   │   ├── Linux常用命令100个.md
+│   │   └── Linux命令学习大纲.md
+│   └── references/   # 🔍 专项参考资料
+│       ├── echo命令快速参考.md
+│       └── Linux特殊符号快速参考.md
+├── docs/            # 📖 项目文档
+│   ├── README.md    # 文档导航
+│   └── project/     # 项目维护文档
+│       └── README.md
+└── .cursor/         # ⚙️ Cursor IDE配置
+    └── git-workflow.md
 ```
 
 ## 🚀 快速开始
 
 ### 新手推荐学习路径
-1. **第一步**: 阅读 [`stages/阶段1-基础入门.md`](stages/阶段1-基础入门.md)
-2. **第二步**: 学习 [`collections/Linux最常用命令TOP25.md`](collections/Linux最常用命令TOP25.md)
+1. **第一步**: 阅读 [`guides/stages/阶段1-基础入门.md`](guides/stages/阶段1-基础入门.md)
+2. **第二步**: 学习 [`commands/essentials/Linux最常用命令TOP25.md`](commands/essentials/Linux最常用命令TOP25.md)
 3. **第三步**: 按照阶段顺序深入学习
 
 ### 查找特定内容
-- **命令合集**: 查看 [`collections/`](collections/) 目录
-- **学习阶段**: 查看 [`stages/`](stages/) 目录
-- **参考资料**: 查看 [`references/`](references/) 目录
-- **项目详情**: 查看 [`project/README.md`](project/README.md)
+- **学习指南**: 查看 [`guides/`](guides/) 目录
+- **命令合集**: 查看 [`commands/`](commands/) 目录
+- **项目文档**: 查看 [`docs/`](docs/) 目录
 
 ## 🎯 学习目标
 
@@ -45,12 +53,12 @@ Linux-command/
 
 ## 📊 内容概览
 
-| 分类 | 文档数量 | 主要内容 |
-|------|----------|----------|
-| 学习阶段 | 4个文档 | 分阶段系统学习 |
-| 命令合集 | 4个文档 | TOP25/50/100个命令 |
-| 参考资料 | 2个文档 | 专项深入解析 |
-| 项目文档 | 1个文档 | 项目说明和维护 |
+| 分类 | 文档数量 | 主要内容 | 适合人群 |
+|------|----------|----------|----------|
+| 学习指南 | 5个文档 | 分阶段系统学习教程 | 所有学习者 |
+| 命令合集 | 6个文档 | TOP25/50/100命令合集 | 按需求选择 |
+| 专项参考 | 2个文档 | echo命令和特殊符号详解 | 深入学习者 |
+| 项目文档 | 3个文档 | 项目介绍和维护指南 | 贡献者和维护者 |
 
 ## 📖 学习建议
 
@@ -115,10 +123,10 @@ sudo yum install vim tree htop curl wget
 ## 🛠️ 使用建议
 
 ### 查找命令
-1. **日常使用**: 查看TOP25合集
-2. **功能查找**: 查看100个命令合集
-3. **深入学习**: 查看相应阶段文档
-4. **快速参考**: 查看专项参考文档
+1. **日常使用**: 查看 [`commands/essentials/`](commands/essentials/) 目录
+2. **功能查找**: 查看 [`commands/collections/`](commands/collections/) 目录
+3. **深入学习**: 查看 [`guides/stages/`](guides/stages/) 目录
+4. **快速参考**: 查看 [`commands/references/`](commands/references/) 目录
 
 ## 🤝 贡献指南
 
