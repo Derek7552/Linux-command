@@ -42,22 +42,21 @@ chore: 构建或工具配置
 
 ```
 Linux-command/
-├── stages/              # 学习阶段文档
+├── guides/              # 学习指南
 │   ├── 阶段1-基础入门.md    # 文件操作基础
 │   ├── 阶段2-文本处理.md    # 文本处理技能
 │   ├── 阶段3-系统管理.md    # 系统管理知识
 │   └── 阶段4-网络与高级应用.md # 网络和高级技巧
-├── collections/         # 命令合集文档
+├── commands/            # 命令合集
 │   ├── Linux最常用命令TOP25.md  # 核心命令（推荐首学）
 │   ├── Linux最常用命令50个.md   # 常用命令（进阶）
 │   ├── Linux常用命令100个.md    # 完整合集（参考）
-│   └── Linux命令学习大纲.md     # 学习规划
-├── references/          # 参考资料文档
-│   ├── echo命令快速参考.md     # echo命令详解
-│   └── Linux特殊符号快速参考.md # 符号使用指南
-├── project/             # 项目文档（本目录）
-│   └── README.md        # 项目维护文档
-└── README.md           # 项目根目录说明
+│   ├── Linux命令学习大纲.md     # 学习规划
+│   └── references/      # 专项参考资料
+│       ├── echo命令快速参考.md     # echo命令详解
+│       └── Linux特殊符号快速参考.md # 符号使用指南
+├── README.md            # 项目介绍
+└── CONTRIBUTING.md      # 贡献指南（本文件）
 ```
 
 ## 🔧 维护任务
